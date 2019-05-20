@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E4D6B2C610D0509C4E5BDA0 /* libPods-SDWebImageWebPCoderTestObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D7B2BA1B638C6FB664BDDC /* libPods-SDWebImageWebPCoderTestObjC.a */; };
 		E91A24482292D84900BBD888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E91A24472292D84900BBD888 /* AppDelegate.m */; };
 		E91A244B2292D84900BBD888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E91A244A2292D84900BBD888 /* ViewController.m */; };
 		E91A244E2292D84900BBD888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91A244C2292D84900BBD888 /* Main.storyboard */; };
 		E91A24502292D84A00BBD888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E91A244F2292D84A00BBD888 /* Assets.xcassets */; };
 		E91A24532292D84A00BBD888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E91A24512292D84A00BBD888 /* LaunchScreen.storyboard */; };
 		E91A24562292D84A00BBD888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E91A24552292D84A00BBD888 /* main.m */; };
+		E91A245E2292D97500BBD888 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91A245D2292D97500BBD888 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		192C15433AC4155BACF5CB35 /* Pods-SDWebImageWebPCoderTestObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageWebPCoderTestObjC.debug.xcconfig"; path = "Target Support Files/Pods-SDWebImageWebPCoderTestObjC/Pods-SDWebImageWebPCoderTestObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		3BFC015E0C28DFD0C42A5CC2 /* Pods-SDWebImageWebPCoderTestObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageWebPCoderTestObjC.release.xcconfig"; path = "Target Support Files/Pods-SDWebImageWebPCoderTestObjC/Pods-SDWebImageWebPCoderTestObjC.release.xcconfig"; sourceTree = "<group>"; };
 		E91A24432292D84900BBD888 /* SDWebImageWebPCoderTestObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDWebImageWebPCoderTestObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91A24462292D84900BBD888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E91A24472292D84900BBD888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +30,9 @@
 		E91A24522292D84A00BBD888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E91A24542292D84A00BBD888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E91A24552292D84A00BBD888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E91A245C2292D97400BBD888 /* SDWebImageWebPCoderTestObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDWebImageWebPCoderTestObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		E91A245D2292D97500BBD888 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		F2D7B2BA1B638C6FB664BDDC /* libPods-SDWebImageWebPCoderTestObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDWebImageWebPCoderTestObjC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4D6B2C610D0509C4E5BDA0 /* libPods-SDWebImageWebPCoderTestObjC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89A0A9D2DEC5B6195F48B42D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				192C15433AC4155BACF5CB35 /* Pods-SDWebImageWebPCoderTestObjC.debug.xcconfig */,
+				3BFC015E0C28DFD0C42A5CC2 /* Pods-SDWebImageWebPCoderTestObjC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D47B626DB0AA8FCE4338D2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2D7B2BA1B638C6FB664BDDC /* libPods-SDWebImageWebPCoderTestObjC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E91A243A2292D84900BBD888 = {
 			isa = PBXGroup;
 			children = (
 				E91A24452292D84900BBD888 /* SDWebImageWebPCoderTestObjC */,
 				E91A24442292D84900BBD888 /* Products */,
+				89A0A9D2DEC5B6195F48B42D /* Pods */,
+				D47B626DB0AA8FCE4338D2C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,11 +89,13 @@
 				E91A24472292D84900BBD888 /* AppDelegate.m */,
 				E91A24492292D84900BBD888 /* ViewController.h */,
 				E91A244A2292D84900BBD888 /* ViewController.m */,
+				E91A245D2292D97500BBD888 /* TestViewController.swift */,
 				E91A244C2292D84900BBD888 /* Main.storyboard */,
 				E91A244F2292D84A00BBD888 /* Assets.xcassets */,
 				E91A24512292D84A00BBD888 /* LaunchScreen.storyboard */,
 				E91A24542292D84A00BBD888 /* Info.plist */,
 				E91A24552292D84A00BBD888 /* main.m */,
+				E91A245C2292D97400BBD888 /* SDWebImageWebPCoderTestObjC-Bridging-Header.h */,
 			);
 			path = SDWebImageWebPCoderTestObjC;
 			sourceTree = "<group>";
@@ -78,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E91A24592292D84A00BBD888 /* Build configuration list for PBXNativeTarget "SDWebImageWebPCoderTestObjC" */;
 			buildPhases = (
+				4FF9048412FA9B61235C0424 /* [CP] Check Pods Manifest.lock */,
 				E91A243F2292D84900BBD888 /* Sources */,
 				E91A24402292D84900BBD888 /* Frameworks */,
 				E91A24412292D84900BBD888 /* Resources */,
@@ -102,6 +132,7 @@
 				TargetAttributes = {
 					E91A24422292D84900BBD888 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -136,6 +167,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4FF9048412FA9B61235C0424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SDWebImageWebPCoderTestObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E91A243F2292D84900BBD888 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -143,6 +199,7 @@
 			files = (
 				E91A244B2292D84900BBD888 /* ViewController.m in Sources */,
 				E91A24562292D84A00BBD888 /* main.m in Sources */,
+				E91A245E2292D97500BBD888 /* TestViewController.swift in Sources */,
 				E91A24482292D84900BBD888 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,8 +340,10 @@
 		};
 		E91A245A2292D84A00BBD888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192C15433AC4155BACF5CB35 /* Pods-SDWebImageWebPCoderTestObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VC35JGS33;
 				INFOPLIST_FILE = SDWebImageWebPCoderTestObjC/Info.plist;
@@ -294,14 +353,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SDWebImageWebPCoderTestObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDWebImageWebPCoderTestObjC/SDWebImageWebPCoderTestObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		E91A245B2292D84A00BBD888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BFC015E0C28DFD0C42A5CC2 /* Pods-SDWebImageWebPCoderTestObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3VC35JGS33;
 				INFOPLIST_FILE = SDWebImageWebPCoderTestObjC/Info.plist;
@@ -311,6 +375,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.akira.matsuda.SDWebImageWebPCoderTestObjC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SDWebImageWebPCoderTestObjC/SDWebImageWebPCoderTestObjC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
